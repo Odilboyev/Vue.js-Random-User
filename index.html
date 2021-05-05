@@ -10,7 +10,8 @@
 <body>
     <div id="app">
         <img :class="gender" :src="picture" :alt="firstname">
-        <h1>{{firstname}} {{lastname}}</h1>
+        <h1>{{firstname}} {{lastname}} </h1>
+        <h3>Gender: {{gender}}</h3>
         <h3>Email: {{email}}</h3>
         <button :class="gender" @click="getUser()">Get Random user</button>
     </div>
